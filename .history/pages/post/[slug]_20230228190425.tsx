@@ -3,7 +3,7 @@ import { Post } from "../../typings";
 import { GetStaticProps } from "next";
 import Header from "../components/Header";
 import PortableText from "react-portable-text";
-import { sanityClient, urlFor } from "../../lib/sanity";
+import { sanityClient, urlFor } from "../../sanity";
 import { useForm, SubmitHandler } from "react-hook-form";
 import Footer from "../components/Footer";
 

@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from "next/link";
 import Header from "../pages/components/Header";
 import Footer from "../pages/components/Footer";
-import { sanityClient, urlFor } from "../lib/sanity";
+import { sanityClient, urlFor } from "../sanity";
 
 interface Props {
   posts: [Post];
